@@ -2,10 +2,8 @@
 
 Two separate files:
 
-    ```
     - readingQR_cv2.py: detects the QR code, reads its data and draws a bounding box around it
     - openingWebcam_cv2.py: main function; starts a video capture and calls the detect_and_decode function from readingQR_cv2.py for every frame.
-    ```
 
 ## Installation
 
