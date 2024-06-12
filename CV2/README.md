@@ -1,9 +1,10 @@
 # QR Detection with OpenCV Python and pyzbar
 
-Two separate files:
+Three separate files:
 
     - readingQR_cv2.py: detects the QR code, reads its data and draws a bounding box around it
     - openingWebcam_cv2.py: main function; starts a video capture and calls the detect_and_decode function from readingQR_cv2.py for every frame.
+    - openingWebcam_file.py: same behavior as the previous one, but it loads an image from memory instead of starting a video recording.
 
 ## Installation
 
@@ -24,6 +25,8 @@ Two separate files:
 CLI usage:
 
     python3 openingWebcam_cv2.py
+
+    python3 openingWebcam_file.py
 
 ## References
 - https://docs.opencv.org/3.4/d6/d00/tutorial_py_root.html
