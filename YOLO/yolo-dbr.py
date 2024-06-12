@@ -39,7 +39,7 @@ def decodeframe(frame, left, top, right, bottom):
     return None
 
 # Load an image
-frame = cv.imread("416x416.jpg")
+frame = cv.imread("TestImage6.jpg")
 
 threshold = 0.6  
 

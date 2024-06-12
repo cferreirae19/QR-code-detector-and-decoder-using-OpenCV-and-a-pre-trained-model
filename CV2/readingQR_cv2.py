@@ -27,7 +27,6 @@ def draw_qr_code_rectangles(frame, qr_codes):
             w = rct[2]
             h = rct[3]
             a = w*h
-            #print("Area: ", w, "x", h, "=", a)
             # Draw size (pixels)
             label = 'Size: %d x %d = %d' % (w,h,a)
             cv2.putText(frame, label, (0, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0))
