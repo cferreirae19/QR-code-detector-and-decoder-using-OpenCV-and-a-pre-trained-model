@@ -21,6 +21,8 @@ Two separate files:
 
 ## Usage
 
+CLI usage:
+
     ```
     python3 openingWebcam_cv2.py
     ```
