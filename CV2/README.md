@@ -22,11 +22,11 @@ Three separate files:
 
 ## Usage
 
-CLI usage:
+2 different modes:
 
-    python3 openingWebcam_cv2.py
+    - Webcam: python3 openingWebcam_cv2.py
 
-    python3 openingWebcam_file.py
+    - Load an image: python3 openingWebcam_file.py
 
 ## References
 - https://docs.opencv.org/3.4/d6/d00/tutorial_py_root.html
