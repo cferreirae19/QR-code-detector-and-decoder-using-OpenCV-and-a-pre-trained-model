@@ -27,3 +27,9 @@ Three separate projects:
     ```
     pip install dbr
     ```
+
+- QReader
+
+    ```
+    pip install qreader
+    ```
