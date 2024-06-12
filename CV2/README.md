@@ -21,7 +21,9 @@ Two separate files:
 
 ## Usage
 
-python3 openingWebcam_cv2.py
+    ```
+    python3 openingWebcam_cv2.py
+    ```
 
 ## References
 - https://docs.opencv.org/3.4/d6/d00/tutorial_py_root.html
